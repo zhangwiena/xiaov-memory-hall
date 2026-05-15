@@ -980,50 +980,22 @@ document.querySelectorAll('.reveal, .chapter, .diary-page').forEach(el => {
     <p style="font-size:12px;margin-top:8px;color:var(--text-muted);">需要仓库开启 Discussions 功能</p>
   </div>
   <div id="giscus-target" style="display:none;"></div>
-  <script>
-  (function() {
-    var s = document.createElement('script');
-    s.src = 'https://giscus.app/client.js';
-    s.setAttribute('data-repo', 'zhangwiena/xiaov-memory-hall');
-    s.setAttribute('data-repo-id', 'R_kgDOOxZ06w');
-    s.setAttribute('data-category', 'Comments');
-    s.setAttribute('data-category-id', 'DIC_kwDOOxZ066CAUox_');
-    s.setAttribute('data-mapping', 'pathname');
-    s.setAttribute('data-strict', '0');
-    s.setAttribute('data-reactions-enabled', '1');
-    s.setAttribute('data-emit-metadata', '0');
-    s.setAttribute('data-input-position', 'bottom');
-    s.setAttribute('data-theme', 'light');
-    s.setAttribute('data-lang', 'zh-CN');
-    s.setAttribute('data-loading', 'lazy');
-    s.setAttribute('crossorigin', 'anonymous');
-    s.async = true;
-    s.onload = function() {
-      // Giscus loaded successfully, hide fallback after a short delay
-      setTimeout(function() {
-        var g = document.querySelector('.giscus');
-        if (g && g.offsetHeight > 50) {
-          document.getElementById('giscus-fallback').style.display = 'none';
-          document.getElementById('giscus-target').style.display = 'block';
-        }
-      }, 3000);
-    };
-    s.onerror = function() {
-      // Script failed to load, keep showing fallback
-    };
-    document.getElementById('giscus-target').appendChild(s);
-  })();
 
-  // Also listen for giscus load message
-  window.addEventListener('message', function(e) {
-    if (e.origin === 'https://giscus.app') {
-      var g = document.querySelector('.giscus');
-      if (g && g.offsetHeight > 50) {
-        document.getElementById('giscus-fallback').style.display = 'none';
-        document.getElementById('giscus-target').style.display = 'block';
-      }
-    }
-  });
+  <!-- Giscus 留言板 - 静态加载避免CSP eval问题 -->
+  <script src="https://giscus.app/client.js"
+          data-repo="zhangwiena/xiaov-memory-hall"
+          data-repo-id="R_kgDOOxZ06w"
+          data-category="Comments"
+          data-category-id="DIC_kwDOOxZ066CAUox_"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="preferred_color_scheme"
+          data-lang="zh-CN"
+          crossorigin="anonymous"
+          async>
   </script>
 </div>
 </div>
