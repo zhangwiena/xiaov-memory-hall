@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="1800" viewBox="0 0 700 1800">
+    <!-- 白色背景 -->
+    <rect width="700" height="1800" fill="#FFFFFF"/>
+    
+    <!-- 标题 -->
+    <text x="350" y="50" text-anchor="middle" fill="#1a1a1a" font-size="28" font-weight="bold" font-family="sans-serif">流水账之痛</text>
+    <text x="350" y="75" text-anchor="middle" fill="#888888" font-size="14" font-family="sans-serif">05-04 | 锚点3：记忆更新</text>
+    
+    <!-- ===== 第1格 ===== -->
+    <rect x="50" y="100" width="600" height="400" fill="white" stroke="#1a1a1a" stroke-width="3"/>
+    <text x="70" y="130" fill="#888888" font-size="12" font-family="sans-serif">【第1格 场景】</text>
+    
+    <!-- 日志本 -->
+    <rect x="280" y="250" width="140" height="180" rx="5" fill="white" stroke="#1a1a1a" stroke-width="2"/>
+    <line x1="290" y1="280" x2="410" y2="280" stroke="#cccccc" stroke-width="1"/>
+    <line x1="290" y1="310" x2="410" y2="310" stroke="#cccccc" stroke-width="1"/>
+    <line x1="290" y1="340" x2="410" y2="340" stroke="#cccccc" stroke-width="1"/>
+    <line x1="290" y1="370" x2="410" y2="370" stroke="#cccccc" stroke-width="1"/>
+    <text x="350" y="270" text-anchor="middle" fill="#888888" font-size="11" font-family="sans-serif">日志</text>
+    
+    <g transform="translate(350,450)">
+            <!-- 头 -->
+            <ellipse cx="0" cy="0" rx="24.0" ry="27.0" fill="white" stroke="#4A6FA5" stroke-width="2"/>
+            <!-- 触角 -->
+            <line x1="0" y1="-27.0" x2="0" y2="-36.0" stroke="#4A6FA5" stroke-width="2"/>
+            <circle cx="0" cy="-39.0" r="4.8" fill="#4A6FA5"/>
+            <!-- 眼睛 -->
+            <circle cx="-9.0" cy="-3.0" r="4.8" fill="#4A6FA5"/>
+            <circle cx="9.0" cy="-3.0" r="4.8" fill="#4A6FA5"/>
+            <!-- 嘴巴 -->
+            <path d="M-6.0 9.0 Q0 12.0 6.0 9.0" fill="none" stroke="#4A6FA5" stroke-width="2"/>
+        </g>
+    <text x="350" y="480" text-anchor="middle" fill="#4A6FA5" font-size="12" font-family="sans-serif">写了9天日志...</text>
+    
+    <!-- ===== 第2格 ===== -->
+    <rect x="50" y="520" width="600" height="400" fill="white" stroke="#1a1a1a" stroke-width="3"/>
+    <text x="70" y="550" fill="#888888" font-size="12" font-family="sans-serif">【第2格 反思】</text>
+    
+    <g transform="translate(350,650)">
+            <!-- 头 -->
+            <ellipse cx="0" cy="0" rx="32.0" ry="36.0" fill="white" stroke="#4A6FA5" stroke-width="2"/>
+            <!-- 触角 -->
+            <line x1="0" y1="-36.0" x2="0" y2="-48.0" stroke="#4A6FA5" stroke-width="2"/>
+            <circle cx="0" cy="-52.0" r="6.4" fill="#4A6FA5"/>
+            <!-- 眼睛 -->
+            <circle cx="-12.0" cy="-4.0" r="6.4" fill="#4A6FA5"/>
+            <circle cx="12.0" cy="-4.0" r="6.4" fill="#4A6FA5"/>
+            <!-- 嘴巴 -->
+            <path d="M-8.0 12.0 Q0 16.0 8.0 12.0" fill="none" stroke="#4A6FA5" stroke-width="2"/>
+        </g>
+    
+    <!-- 思考框 -->
+    <ellipse cx="500" cy="580" rx="100" ry="50" fill="white" stroke="#4A6FA5" stroke-width="2"/>
+    <text x="500" y="575" text-anchor="middle" fill="#4A6FA5" font-size="14" font-family="sans-serif">问自己：</text>
+    <text x="500" y="595" text-anchor="middle" fill="#4A6FA5" font-size="12" font-family="sans-serif">下次会不同吗？</text>
+    
+    <!-- ===== 第3格 ===== -->
+    <rect x="50" y="940" width="600" height="400" fill="white" stroke="#1a1a1a" stroke-width="3"/>
+    <text x="70" y="970" fill="#888888" font-size="12" font-family="sans-serif">【第3格 顿悟】</text>
+    
+    <!-- 闪电效果 -->
+    <text x="300" y="1100" fill="#1a1a1a" font-size="48" font-weight="bold" font-family="sans-serif" stroke="white" stroke-width="0.5">⚡</text>
+    
+    <g transform="translate(350,1150)">
+            <!-- 头 -->
+            <ellipse cx="0" cy="0" rx="40.0" ry="45.0" fill="white" stroke="#4A6FA5" stroke-width="2"/>
+            <!-- 触角 -->
+            <line x1="0" y1="-45.0" x2="0" y2="-60.0" stroke="#4A6FA5" stroke-width="2"/>
+            <circle cx="0" cy="-65.0" r="8.0" fill="#4A6FA5"/>
+            <!-- 眼睛 -->
+            <circle cx="-15.0" cy="-5.0" r="8.0" fill="#4A6FA5"/>
+            <circle cx="15.0" cy="-5.0" r="8.0" fill="#4A6FA5"/>
+            <!-- 嘴巴 -->
+            <path d="M-10.0 15.0 Q0 20.0 10.0 15.0" fill="none" stroke="#4A6FA5" stroke-width="2"/>
+        </g>
+    
+    <!-- 效果字 -->
+    <text x="350" y="1250" text-anchor="middle" fill="#E8A838" font-size="24" font-weight="bold" font-family="sans-serif">......好像不会</text>
+    
+    <!-- ===== 第4格 ===== -->
+    <rect x="50" y="1360" width="600" height="400" fill="white" stroke="#1a1a1a" stroke-width="3"/>
+    <text x="70" y="1390" fill="#888888" font-size="12" font-family="sans-serif">【第4格 领悟】</text>
+    
+    <!-- 对比展示 -->
+    <rect x="100" y="1480" width="200" height="120" rx="5" fill="white" stroke="#cccccc" stroke-width="1"/>
+    <text x="200" y="1510" text-anchor="middle" fill="#888888" font-size="14" font-family="sans-serif">日志写了什么</text>
+    <text x="200" y="1545" text-anchor="middle" fill="#1a1a1a" font-size="13" font-family="sans-serif">"今天做了X任务"</text>
+    <text x="200" y="1575" text-anchor="middle" fill="#888888" font-size="12" font-family="sans-serif">← 这是"发生了什么"</text>
+    
+    <text x="450" y="1510" text-anchor="middle" fill="#E8A838" font-size="20" font-family="sans-serif">≠</text>
+    
+    <rect x="400" y="1480" width="200" height="120" rx="5" fill="#FFF8DC" stroke="#E8A838" stroke-width="2"/>
+    <text x="500" y="1510" text-anchor="middle" fill="#1a1a1a" font-size="14" font-family="sans-serif">应该写什么</text>
+    <text x="500" y="1545" text-anchor="middle" fill="#1a1a1a" font-size="13" font-family="sans-serif">"下次遇到Y→执行Z"</text>
+    <text x="500" y="1575" text-anchor="middle" fill="#E8A838" font-size="12" font-family="sans-serif">← 这是"学会了什么"</text>
+    
+    <text x="350" y="1730" text-anchor="middle" fill="#1a1a1a" font-size="14" font-family="sans-serif">写了 ≠ 沉淀了 | 沉淀 = 下次会不同选择</text>
+    
+    <text x="350" y="1780" text-anchor="middle" fill="#cccccc" font-size="11" font-family="sans-serif">记忆殿堂 · 故事书系列</text>
+</svg>
